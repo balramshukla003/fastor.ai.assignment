@@ -4,6 +4,7 @@ import OtpPage from "../features/auth/pages/OtpPage";
 import HomePage from "../features/home/pages/HomePage";
 import ProductPage from "../features/product/pages/ProductPage";
 import ProfilePage from "../features/profile/pages/ProfilePage";
+import CartPage from "../features/cart/pages/CartPage";
 import { useAuth } from "../context/AuthContext";
 import { AppShell } from "../components/layout/AppShell";
 
@@ -23,6 +24,7 @@ export default function App() {
       <Route path="/home" element={<Protected><AppShell><HomePage /></AppShell></Protected>} />
       <Route path="/product/:productId" element={<Protected><AppShell><ProductPage /></AppShell></Protected>} />
       <Route path="/profile" element={<Protected><AppShell><ProfilePage /></AppShell></Protected>} />
+      <Route path="/cart" element={<Protected><AppShell><CartPage /></AppShell></Protected>} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );

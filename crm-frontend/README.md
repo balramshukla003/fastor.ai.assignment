@@ -52,3 +52,7 @@ npm run preview
 ## Security note
 
 The API example includes a `password` property in the user response. The frontend intentionally removes it and never renders it. If the example token/password were real, rotate/revoke them.
+
+
+### Cart
+The desktop header and mobile bottom navigation both open `/cart`. The cart supports quantity changes, item removal, clearing the cart, and subtotal calculation. Cart contents are currently held in React state for the active session; checkout is a UI placeholder and does not submit an order.
