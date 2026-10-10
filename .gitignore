@@ -2,4 +2,6 @@ crm-backend/node_modules/
 crm-backend/.env
 crm-backend/coverage/
 crm-backend/npm-debug.log*
-structure.py
+crm-frontend/.env
+/crm-frontend/node_modules
+/crm-frontend/.vite
