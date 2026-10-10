@@ -1,0 +1,12 @@
+{
+  "name": "Fastor",
+  "short_name": "Fastor",
+  "description": "Fastor food ordering experience",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff5a00",
+  "icons": [
+    { "src": "/assets/fastor-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
