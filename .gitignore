@@ -1,2 +1,5 @@
-/crm-frontend/node_modules
+crm-backend/.env
+/crm-backend/node_modules
+crm-frontend/.env
 /crm-frontend/.vite
+/crm-frontend/node_modules

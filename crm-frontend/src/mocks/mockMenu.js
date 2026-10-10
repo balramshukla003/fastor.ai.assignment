@@ -1,0 +1,9 @@
+const foodImage = (id) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=900&q=80`;
+
+export const mockMenu = [
+  { id: "pizza-margherita", name: "Farmhouse Pizza", description: "Loaded with vegetables, herbs and melted cheese.", price: 140, category: "Best Seller", image: foodImage("photo-151 pizza") .replace("photo-151 pizza", "photo-1513104890138-7c749659a591"), sizes: [{ id: "personal", label: "Personal (4 Slices)", price: 0 }, { id: "medium", label: "Medium (8 Slices)", price: 80 }, { id: "familiar", label: "Familiar (10 Slices)", price: 160 }, { id: "jumbo", label: "Jumbo (12 Slices)", price: 240 }] },
+  { id: "chicken-burger", name: "Chicken Burger", description: "Crispy chicken, lettuce and our house sauce.", price: 120, category: "Popular", image: foodImage("photo-1568901346375-23c9450c58cd"), sizes: [{ id: "regular", label: "Regular", price: 0 }, { id: "large", label: "Large", price: 40 }] },
+  { id: "strawberry-shake", name: "Strawberry Shake", description: "Creamy strawberry shake served chilled.", price: 80, category: "Popular", image: foodImage("photo-1572490122747-3968b75cc699"), sizes: [{ id: "regular", label: "Regular", price: 0 }, { id: "large", label: "Large", price: 30 }] },
+  { id: "bowl", name: "Garden Rice Bowl", description: "A colourful bowl with rice, vegetables and fresh herbs.", price: 110, category: "Popular", image: foodImage("photo-1512621776951-a57141f2eefd"), sizes: [{ id: "regular", label: "Regular", price: 0 }, { id: "large", label: "Large", price: 35 }] },
+  { id: "sushi", name: "Veg Sushi Roll", description: "Fresh rolls served with a light dipping sauce.", price: 160, category: "Best Seller", image: foodImage("photo-1579871494447-9811cf80d66c"), sizes: [{ id: "six", label: "6 pieces", price: 0 }, { id: "ten", label: "10 pieces", price: 70 }] }
+];
