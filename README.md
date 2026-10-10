@@ -22,7 +22,7 @@ fastor.ai.assignment/
 - **Frontend:** [View Frontend README](./crm-frontend/README.md)  
   Contains frontend setup instructions, technologies used, project structure, and implementation details.
 
-- **Backend:** [View Backend README](./crm-backend/README.md)  
+- **Backend:** [View Backend README](./crm-backend/readme.md)  
   Contains backend setup instructions, API documentation, technologies used, configuration, and implementation details.
 
 ## Getting Started
